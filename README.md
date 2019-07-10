@@ -37,7 +37,9 @@ reports](DONATIONS.md) about what is being done with the money received.
   - [Non-Github (Local) Plugins](#non-github-local-plugins)
   - [Customizing Paths & Other](#customizing-paths--other)
   - [Extending Git](#extending-git)
-  - [Docker Images (`burst` Scheduler Invocation)](#docker-images-burst-scheduler-invocation)
+  - [
+  
+  Images (`burst` Scheduler Invocation)](#docker-images-burst-scheduler-invocation)
   - [Plugin Standard](#plugin-standard)
 - [Additional resources](#additional-resources)
 - [IRC Channel](#irc-channel)
@@ -641,7 +643,7 @@ RUN zsh -i -c -- '-zplg-scheduler burst || true'
 ```
 
 An example `Dockerfile` can be found
-[here](https://github.com/robobenklein/configs/blob/master/Dockerfile#L36).
+[here](https://github.com/robobenklein/configs/blob/master/Dockerfile).
 
 ## Plugin Standard
 
