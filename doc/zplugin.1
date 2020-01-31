@@ -894,11 +894,11 @@ installs \fBall\fR plugins instantly, without respecting the \fBwait''\fR argume
 .RE 0
 
 .P
-To accomplish this, use \fBburst\fR argument and call \fB-zplg-scheduler\fR function. Example \fBDockerfile\fR entry:
+To accomplish this, use \fBburst\fR argument and call \fB@zinit-scheduler\fR function. Example \fBDockerfile\fR entry:
 .P
 .RS 2
 .nf
-RUN zsh -i -c -- '-zplg-scheduler burst || true'
+RUN zsh -i -c -- '@zinit-scheduler burst || true'
 .fi
 .RE
 .P
